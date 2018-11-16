@@ -23,8 +23,9 @@ public class Solution {
                 } else {
                     if (count > max) {
                         max = count;
-                        count = 0;
+
                     }
+                    count = 0;
                 }
             } else {
                 if (flag == 1) {
